@@ -6,8 +6,8 @@ $( document ).ready(function(){
 
 $(window).scroll(function () {
   if ($(window).scrollTop() >= 50) {
-    $('.navbar').css('background-color','red');
+    $('.navbar').css('opacity','100');
   } else {
-    $('.navbar').css('background-color','transparent');
+    $('.navbar').css('opacity','0');
   }
 });
